@@ -1,0 +1,57 @@
+body{
+
+margin:0;
+background:black;
+overflow:hidden;
+font-family:Segoe UI;
+
+}
+
+
+
+#text{
+
+position:absolute;
+
+top:50%;
+
+width:100%;
+
+text-align:center;
+
+font-size:60px;
+
+color:#00BFFF;
+
+opacity:0;
+
+transform:translateY(50px);
+
+animation: reveal 5s ease forwards;
+
+animation-delay:4s;
+
+
+text-shadow:
+
+0 0 20px #00BFFF,
+
+0 0 40px #00BFFF,
+
+0 0 80px #00BFFF;
+
+}
+
+
+
+@keyframes reveal{
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
